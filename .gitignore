@@ -1,0 +1,12 @@
+# Ignore the entirety of the build directories.
+
+bin/
+obj/
+
+# Make sure to ignore hidden VS directories. Maybe make stricter and ignore hidden directories in general.
+
+.vs/
+
+# For safety, ignore executables. This ensures that Debug/Release *builds* are not pushed to branches.
+
+*.exe

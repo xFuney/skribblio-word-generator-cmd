@@ -35,3 +35,5 @@ Please don't report issues if they're to do with your environment - "exotic" env
 You'll find releases [here](https://github.com/xFuney/skribblio-word-generator-cmd/releases).
 
 The easiest way to use this program is to drag and drop a proper text file into the executable from Windows Explorer, and get the CSV output from the program (these will be outputted to "output.csv" in your working directory, unless it already exists - you will recieve a confirmation prior to any data being overwritten).
+
+You can also pass your filename/directory to the program directly using Command Prompt, and you could probably create a shortcut to call the program on demand - I haven't tried this so don't expect shortcutting to work out of the box.

@@ -23,3 +23,15 @@ program
 - this allows you to separate "categories" for better legibility
 ```
 Some sample text files will be available here soon.
+# Build Instructions
+This was programmed using Visual Studio 2019, this should be as easy as:
+```
+git clone https://github.com/xFuney/skribblio-word-generator-cmd.git
+```
+Then open the Project up in VS2019 - settings should be set for proper building automatically, raise an issue if it isn't.
+
+Please don't report issues if they're to do with your environment - "exotic" environments (non-VS2019) shouldn't have issues raised unless they are proven to affect non-exotic builds.
+# Run Instructions
+You'll find releases [here](https://github.com/xFuney/skribblio-word-generator-cmd/releases).
+
+The easiest way to use this program is to drag and drop a proper text file into the executable from Windows Explorer, and get the CSV output from the program (these will be outputted to "output.csv" in your working directory, unless it already exists - you will recieve a confirmation prior to any data being overwritten).
